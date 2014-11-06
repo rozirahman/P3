@@ -90,6 +90,9 @@ public class MapExplorer {
 		current = cell;
 	}
 	
+	//how now brown co TODO
+	
+	
 	private void checkParentNeighbors(Cell cell){
 		Cell[] parents = map.getNeighbors(cell.getId());
 		
